@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="w-full bg-white text-black shadow-md z-50 fixed top-0 left-0 h-20 flex items-center">
       <div className="container mx-auto flex justify-between items-center max-w-screen-xl">
         <a href="/">
-          <Image src={"/logo-nativo.png"} alt="Logo Nativo Estúdio" className="pl-4" width={140} height={120} priority />
+          <Image src={"/logo-nativo.png"} alt="Logo Nativo Estúdio" width={160} height={120} priority />
         </a>
         <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-2xl z-50 w-10 h-10 flex items-center justify-center pr-4">
           {isOpen ? <FaTimes /> : <FaBars />}
