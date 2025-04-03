@@ -4,7 +4,7 @@ Nativo Estúdio é um estúdio de design especializado em identidade visual, sin
 
 Este repositório contém o código-fonte do site do estúdio, desenvolvido com Next.js, Tailwind CSS e outras tecnologias modernas para garantir uma experiência visual e responsiva de alta qualidade.
 
-![Alt text](nativo-home.png)
+![Alt text](public/nativo-home.png)
 
 ## Tecnologias Utilizadas
 
