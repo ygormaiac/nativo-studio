@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+.swiper-pagination-bullet-active {
+  background-color: #fde047 !important; /* Código da cor 'yellow-400' */
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
