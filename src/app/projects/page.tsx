@@ -22,7 +22,7 @@ const projects = [
       primary: 'sinalização',
       secondary: 'identidade',
     },
-    url: '/projects/fecomercio',
+    url: '/projects/escola-sesc',
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ export default function Projects() {
 
   return (
     <div className="container mx-auto py-10 px-4 pt-30">
-      <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-8">
+      <div className="flex flex-wrap justify-start gap-4 mb-8">
         {projectTypes.map((type) => (
           <button
             key={type}

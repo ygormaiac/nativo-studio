@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 
-const ProjectCarousel = () => {
+export default function ProjectCarousel() {
   const images = [
     "/centenario.webp",
     "/escola-sesc.webp",
@@ -23,7 +23,7 @@ const ProjectCarousel = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
         navigation
-        autoplay={{ delay: 4000 }}
+        autoplay={{ delay: 5000 }}
         className="w-full m-10"
       >
         {images.map((src, index) => (
@@ -36,5 +36,3 @@ const ProjectCarousel = () => {
     </div>
   );
 };
-
-export default ProjectCarousel;
