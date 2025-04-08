@@ -29,7 +29,9 @@ const projects = [
 
 export default function EscolaSesc() {
   const handleClickLink = (link: string) => {
-    window.open(link, "_self")
+    if (typeof window !== "undefined") {
+      window.open(link, "_self");
+    }
   }
 
   return (
