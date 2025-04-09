@@ -18,9 +18,9 @@ const Navbar = () => {
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
         <ul className="gap-16 hidden lg:flex pr-4">
-          <li><Link className="hover:border-b-1 hover:border-black transition" href="/about">sobre</Link></li>
-          <li><Link className="hover:border-b-1 hover:border-black transition" href="/projects">projetos</Link></li>
-          <li><Link className="hover:border-b-1 hover:border-black transition" href="/contact">contato</Link></li>
+          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1 tracking-widest font-light" href="/about">sobre</Link></li>
+          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1 tracking-widest font-light" href="/projects">projetos</Link></li>
+          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1 tracking-widest font-light" href="/contact">contato</Link></li>
         </ul>
       </div>
       {isOpen && (

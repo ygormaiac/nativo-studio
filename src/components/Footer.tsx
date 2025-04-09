@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="w-full min-h-[120px] flex flex-col sm:flex-row items-center justify-between bg-gradient-to-b from-white via-yellow-100 to-yellow-300 text-black py-10 px-6 sm:px-24 text-center sm:text-left">
-      <p className="mb-4 sm:mb-0 text-xs lg:text-base">© 2025 . Nativo | nativo.estudiodesign@gmail.com</p>
+      <p className="mb-4 sm:mb-0 text-xs lg:text-sm tracking-wider">© 2025 . Nativo | nativo.estudiodesign@gmail.com</p>
 
       <nav className="w-full sm:w-auto flex justify-center sm:justify-end mt-2 sm:mt-0">
         <ul className="flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-6">

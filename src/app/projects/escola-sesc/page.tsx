@@ -39,7 +39,7 @@ export default function EscolaSesc() {
       <FadeInSection>
         <div className="flex flex-col md:flex-row justify-between items-start gap-4">
           <div className="flex flex-col gap-2">
-            <h1 className="text-3xl text-black font-bold">Escola Sesc</h1>
+            <h1 className="text-5xl text-black font-bold tracking-wider">Escola Sesc</h1>
             <p className="text-gray-700 text-xs">Fortaleza - CE . 2020</p>
           </div>
           <div className="max-w-sm flex flex-col justify-end">
@@ -57,44 +57,44 @@ export default function EscolaSesc() {
           <div className="hidden lg:block absolute top-1/4 lg:left-124 transform -translate-y-1/2 -translate-x-8">
             <Image width={24} height={24} src="/sobre-seta.png" alt="Seta" className="w-40 h-auto rotate-45" />
           </div>
-          <div className="flex flex-col text-gray-700 gap-4 max-w-xl text-left bg-white">
+          <div className="flex flex-col text-gray-700 gap-4 max-w-xl text-left text-lg tracking-wide font-light">
             <p>Através de um projeto de wayfinding moderno em harmonia com o espaço, buscou-se fortalecer a nova identidade arquitetônica do complexo.</p>
             <p>Fazendo conexão com o Namming, o conceito aqui usado se fortifica com o uso inevitável da curva. Esta, formada através do pontilhismo, que traz leveza e gera um grafismo que remete as colunas da torre projetada por Carlos Bratke.</p>
             <p>Devido ao uso do edifício, optou-se por tipografia e ícones sóbrios construindo uma linguagem visual e corporativa, facilitando a funcionalidade das peças e a transmissão das mensagens. Os materiais escolhidos geram contraste entre a luz e as chapas metálicas perfuradas, demarcando os acessos e destacando a informação presente nas peças.</p>
           </div>
         </div>
       </FadeInSection>
-      <div className="flex flex-col gap-12 pt-10">
+      <div className="flex flex-col gap-10 pt-10">
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-1.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full md:w-[520px] h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-2.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full md:w-[520px] h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-3.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full md:w-[520px] h-[480px] object-cover"
               />
             </div>
           </div>
         </FadeInSection>
         <FadeInSection>
           <div className="w-full flex justify-start lg:justify-end">
-            <p className="text-black text-xl font-bold max-w-sm bg-white">
+            <p className="text-black text-3xl tracking-wider font-bold max-w-xl bg-white">
               "Através de um projeto de wayfinding moderno em harmonia com o espaço, buscou-se fortalecer a nova identidade arquitetônica do complexo."
             </p>
           </div>
@@ -106,13 +106,13 @@ export default function EscolaSesc() {
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center mt-0">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-5.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[750px] h-[480px] object-cover"
+                className="self-start w-full md:w-[780px] h-[480px] object-cover"
               />
               <Image
                 width={400}
@@ -126,59 +126,59 @@ export default function EscolaSesc() {
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-7.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full md:w-[520px] h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-8.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full md:w-[520px] h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-9.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full md:w-[520px] h-[480px] object-cover"
               />
             </div>
           </div>
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-10.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full md:w-[605px] h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-11.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full md:w-[605px] h-[480px] object-cover"
               />
             </div>
           </div>
         </FadeInSection>
       </div>
-      <div className="flex flex-col gap-12 pt-10">
+      <div className="flex flex-col gap-10 pt-10">
         <FadeInSection>
-          <div className="max-w-sm flex flex-col gap-4">
-            <p className="text-gray-700 text-base">
+          <div className="max-w-sm flex flex-col gap-4 text-lg tracking-wide font-light text-gray-700">
+            <p>
               O objetivo foi construir uma nova identidade que respeite, enalteça e interaja com a arquitetura e o paisagismo do empreendimento.
             </p>
-            <p className="text-gray-700 text-base">A partir do conceito arquitetônico do complexo, o Namming do empreendimento foi gerado. Optamos por interpretar a conexão dos grandes eixos e das linhas que unem o complexo como base gráfica. Elementos como a curva, ângulos retos e círculos fazem ponte entre a identidade e a edificação.</p>
+            <p>A partir do conceito arquitetônico do complexo, o Namming do empreendimento foi gerado. Optamos por interpretar a conexão dos grandes eixos e das linhas que unem o complexo como base gráfica. Elementos como a curva, ângulos retos e círculos fazem ponte entre a identidade e a edificação.</p>
           </div>
         </FadeInSection>
         <FadeInSection>
@@ -188,14 +188,14 @@ export default function EscolaSesc() {
         </FadeInSection>
         <FadeInSection>
           <div className="w-full flex justify-start">
-            <p className="text-black text-xl font-bold max-w-sm">
+            <p className="text-black text-3xl tracking-wider font-bold max-w-lg">
               "Uma nova identidade que respeita, enaltece e interage com a arquitetura e o paisagismo do empreendimento."
             </p>
           </div>
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
               <Image
                 width={400}
                 height={400}
@@ -227,7 +227,7 @@ export default function EscolaSesc() {
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
               <Image
                 width={400}
                 height={400}
@@ -250,17 +250,17 @@ export default function EscolaSesc() {
             <div className="hidden lg:block transform -translate-y-1/2 -translate-x-8 pl-4">
               <Image width={24} height={24} src="/sobre-seta.png" alt="Seta" className="w-24 h-auto rotate-135" />
             </div>
-            <div className="flex flex-col text-gray-700 gap-4 max-w-md text-left text-xs">
+            <div className="flex flex-col text-gray-700 gap-4 max-w-md text-left">
               <p className="font-bold">Ficha Técnica</p>
-              <div className="flex gap-18">
+              <div className="flex gap-23">
                 <p className="font-semibold">Cliente</p>
                 <p>Parceria com Rede Arquitetos para Fecomércio-CE</p>
               </div>
-              <div className="flex gap-14">
+              <div className="flex gap-18">
                 <p className="font-semibold">Local/ano</p>
                 <p>Fortaleza-CE/2020</p>
               </div>
-              <div className="flex gap-18">
+              <div className="flex gap-24">
                 <p className="font-semibold">Equipe</p>
                 <div>
                   <p>Natália Marques</p>
@@ -278,7 +278,7 @@ export default function EscolaSesc() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <h2 className="font-semibold text-black text-xl pb-6">Veja mais</h2>
+          <h2 className="font-semibold text-black text-3xl pb-6">Veja mais</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-7xl mx-auto">
             {projects.map((project) => (
               <div key={project.id} className="relative group overflow-hidden shadow-lg cursor-pointer" onClick={() => handleClickLink(project.url)}>

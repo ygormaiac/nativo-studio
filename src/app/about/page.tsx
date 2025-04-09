@@ -8,11 +8,11 @@ export default function About() {
         <FadeInSection>
           <div className="flex flex-col md:flex-row justify-between items-start gap-4">
             <div className="flex flex-col gap-2">
-              <h1 className="text-3xl text-black font-bold">Sobre nós</h1>
-              <p className="text-gray-700">De onde somos e o que fazemos</p>
+              <h1 className="text-5xl tracking-wider text-black font-bold">Sobre nós</h1>
+              <p className="text-gray-700 text-lg font-light">De onde somos e o que fazemos</p>
             </div>
-            <div className="max-w-sm flex justify-end">
-              <p className="text-black text-xl font-bold text-justify">
+            <div className="max-w-md flex justify-end">
+              <p className="text-black text-2xl font-bold tracking-wider">
                 "Fortaleza, cidade litorânea onde o verão dura o ano inteiro, é a cidade base do estúdio."
               </p>
             </div>
@@ -25,7 +25,7 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <div className="flex justify-start lg:justify-end pt-10">
-            <div className="flex flex-col text-gray-700 gap-4 max-w-xl text-left bg-white">
+            <div className="flex flex-col text-gray-700 text-lg font-light tracking-wide gap-4 max-w-xl text-left bg-white">
               <p>Nativo Estúdio de Design, fundado em 2013, é formado por Natália Marques e Vitor Alencar.</p>
               <p>Os integrantes iniciaram o estúdio para atuar no campo do design gráfico impresso e digital, identidade visual e sinalização.</p>
               <p>Fazem parte do portfólio da Nativo trabalhos na área institucional (hospitais, parques, escolas, etc) e comercial, com o principal enfoque no desenvolvimento de projetos de sinalização que dialoguem de forma funcional com o espaço e com o usuário, considerando como pontos importantes execução, materiais e estética dos elementos.</p>
@@ -40,9 +40,9 @@ export default function About() {
               <div className="hidden lg:block absolute top-1/8 lg:left-100 transform -translate-y-1/2 -translate-x-8">
                 <Image width={24} height={24} src="/sobre-seta.png" alt="Seta" className="w-24 h-auto" />
               </div>
-              <div className="w-full md:w-auto mt-4 text-left bg-white">
-                <h3 className="text-xl font-bold text-black text-left">Vitor Alencar</h3>
-                <p className="text-gray-700 text-sm max-w-sm">Arquiteto, formado pela Universidade Federal do Ceará (UFC) em 2009.</p>
+              <div className="w-full md:w-auto mt-4 text-left flex flex-col gap-1 bg-white">
+                <h3 className="text-2xl tracking-wider font-bold text-black text-left">Vitor Alencar</h3>
+                <p className="text-gray-700 font-light tracking-wide max-w-sm">Arquiteto, formado pela Universidade Federal do Ceará (UFC) em 2009.</p>
               </div>
             </div>
           </FadeInSection>
@@ -53,10 +53,10 @@ export default function About() {
               <div className="hidden lg:block absolute top-1/8 left-100 transform -translate-y-1/2 -translate-x-8">
                 <Image width={24} height={24} src="/sobre-seta.png" alt="Seta" className="w-24 h-auto" />
               </div>
-              <div className="w-full md:w-auto mt-4 text-left bg-white">
-                <h3 className="text-xl font-bold text-black">Natália Marques</h3>
-                <p className="text-gray-700 text-sm max-w-sm">Mestre em Design e Arquitetura pela Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (FAU-USP) em 2016.</p>
-                <p className="text-gray-700 text-sm max-w-sm">Arquiteta, formada pela Universidade de Fortaleza (UNIFOR) em 2011.</p>
+              <div className="w-full md:w-auto mt-4 text-left flex flex-col gap-1 bg-white">
+                <h3 className="text-2xl tracking-wider font-bold text-black">Natália Marques</h3>
+                <p className="text-gray-700 font-light tracking-wide max-w-sm">Mestre em Design e Arquitetura pela Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (FAU-USP) em 2016.</p>
+                <p className="text-gray-700 font-light tracking-wide max-w-sm">Arquiteta, formada pela Universidade de Fortaleza (UNIFOR) em 2011.</p>
               </div>
             </div>
           </FadeInSection>

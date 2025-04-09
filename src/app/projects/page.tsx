@@ -56,17 +56,17 @@ export default function Projects() {
           <button
             key={type}
             onClick={() => setSelectedType(type)}
-            className={`cursor-pointer px-5 py-1 border border-black rounded-2xl text-sm font-medium transition-colors ${selectedType === type ? 'bg-yellow-200 text-black' : 'bg-transparent text-black hover:bg-yellow-200'}`}
+            className={`font-light tracking-wider cursor-pointer px-3 py-1 border border-black rounded-2xl text-sm transition-colors ${selectedType === type ? 'bg-yellow-200 text-black' : 'bg-transparent text-black hover:bg-yellow-200'}`}
           >
             {type}
           </button>
         ))}
-        <button
+        <span
           onClick={() => setSelectedType('')}
-          className="cursor-pointer px-5 py-1 border border-black rounded-2xl text-sm font-medium bg-transparent text-black hover:bg-yellow-200"
+          className="font-light tracking-wider cursor-pointer px-3 py-1 border border-black rounded-2xl text-sm bg-transparent text-black hover:bg-yellow-200"
         >
           todos
-        </button>
+        </span>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-7xl mx-auto">
         {filteredProjects.map((project) => (
@@ -78,7 +78,7 @@ export default function Projects() {
             />
             <div className="absolute inset-0 bg-yellow-200 bg-opacity-90 flex flex-col justify-between text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-6">
               <div className="flex flex-col">
-                <h3 className="mt-2 text-xl font-semibold text-left">{project.title}</h3>
+                <h3 className="mt-2 text-2xl font-semibold text-left">{project.title}</h3>
                 <span className="mt-1 text-black border-1 border-black rounded-xl text-xs px-2 max-w-21">{project.type.primary}</span>
                 <span className="mt-1 text-black border-1 border-black rounded-xl text-xs px-2 max-w-21">{project.type.secondary}</span>
               </div>
