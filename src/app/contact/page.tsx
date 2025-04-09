@@ -47,16 +47,16 @@ export default function ContactForm() {
     <div className="container mx-auto flex flex-col lg:flex-row justify-center pt-36">
       <div className="relative flex flex-col items-center lg:items-start gap-4 lg:w-1/2 max-w-lg mx-auto text-center lg:text-left lg:px-1 px-4">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black">Fala com a gente</h1>
-        <div className="hidden lg:block absolute top-1/6 left-102">
+        <div className="hidden lg:block absolute top-1/8 left-95">
           <Image
             src="/contato-seta.png"
             alt="Seta"
-            width={150}
-            height={150}
-            className="w-[150px] h-auto"
+            width={192}
+            height={192}
+            className="w-48 h-auto"
           />
         </div>
-        <p className="text-gray-700 font-light tracking-wide md:max-w-md text-sm md:text-base lg:text-lg">Preencha o formulário ao lado ou entre em contato por meio de nossas redes sociais:</p>
+        <p className="text-gray-700 font-light tracking-wide md:max-w-sm text-sm md:text-base">Preencha o formulário ao lado ou entre em contato por meio de nossas redes sociais:</p>
         <Image src="/contact-background.webp" alt="background" width={420} height={100} className="hidden lg:block" />
       </div>
       <div className="lg:w-1/2">

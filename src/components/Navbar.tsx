@@ -17,15 +17,15 @@ const Navbar = () => {
         <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-2xl z-50 w-10 h-10 flex items-center justify-center pr-4">
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
-        <ul className="gap-16 hidden lg:flex pr-4">
-          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1 tracking-widest font-light" href="/about">sobre</Link></li>
-          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1 tracking-widest font-light" href="/projects">projetos</Link></li>
-          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1 tracking-widest font-light" href="/contact">contato</Link></li>
+        <ul className="gap-16 hidden lg:flex tracking-widest font-light">
+          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1" href="/about">sobre</Link></li>
+          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1" href="/projects">projetos</Link></li>
+          <li><Link className="hover:bg-yellow-200 rounded-2xl px-4 py-1" href="/contact">contato</Link></li>
         </ul>
       </div>
       {isOpen && (
         <div className="lg:hidden absolute top-20 left-0 w-full bg-white shadow-md">
-          <ul className="flex flex-col items-center gap-6 py-4">
+          <ul className="flex flex-col items-center gap-6 py-4 tracking-widest font-light">
             <li><Link href="/about" onClick={() => setIsOpen(false)}>sobre</Link></li>
             <li><Link href="/projects" onClick={() => setIsOpen(false)}>projetos</Link></li>
             <li><Link href="/contact" onClick={() => setIsOpen(false)}>contato</Link></li>

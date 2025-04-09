@@ -10,7 +10,11 @@ const GlobalLayout = ({ children }: LayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-        <main className="flex-grow bg-white">{children}</main>
+      <main className="flex-grow bg-white">
+        <div className="container mx-auto max-w-screen-xl">
+          {children}
+        </div>
+      </main>
       <Footer />
     </div>
   );
