@@ -220,7 +220,7 @@ export default function Centenario() {
               <div className="hidden lg:block transform -translate-y-1/2 -translate-x-8 pl-8">
                 <Image width={24} height={24} src="/seta-ficha-tecnica.png" alt="Seta" className="w-16 h-auto" />
               </div>
-              <div className="grid grid-cols-[max-content_1fr] gap-x-6 gap-y-4 text-gray-700 max-w-md text-left">
+              <div className="grid grid-cols-[max-content_1fr] gap-x-6 gap-y-4 text-gray-700 max-w-md text-left font-light">
                 <p className="col-span-2 font-bold">Ficha Técnica</p>
 
                 <p className="font-semibold">Cliente</p>
