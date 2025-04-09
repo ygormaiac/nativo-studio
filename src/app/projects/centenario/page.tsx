@@ -69,7 +69,7 @@ export default function Centenario() {
       <div className="flex flex-col gap-10 pt-10">
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
               <Image
                 width={400}
                 height={400}
