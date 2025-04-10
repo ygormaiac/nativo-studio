@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import Image from "next/image";
+import { toast } from "sonner";
 
 const contactSchema = z.object({
   name: z.string().min(3, "Nome deve ter pelo menos 3 caracteres"),
@@ -16,9 +17,11 @@ type ContactFormData = z.infer<typeof contactSchema>;
 
 export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
@@ -26,21 +29,30 @@ export default function ContactForm() {
 
   async function onSubmit(data: ContactFormData) {
     setIsSubmitting(true);
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+
+  try {
+    const response = await fetch("https://formspree.io/f/mjkyjjrb", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+
+    if (response.ok) {
+      toast.success("Mensagem enviada com sucesso!", {
+        description: "Em breve entraremos em contato :)",
       });
-
-      if (!response.ok) throw new Error("Erro ao enviar o formulário");
-
-      alert("Mensagem enviada com sucesso!");
-    } catch (error) {
-      alert("Erro ao enviar a mensagem.");
-    } finally {
-      setIsSubmitting(false);
+      reset();
+    } else {
+      toast.error("Erro ao enviar a mensagem.");
     }
+  } catch (error) {
+    toast.error("Erro ao enviar a mensagem.");
+  } finally {
+    setIsSubmitting(false);
+  }
   }
 
   return (
@@ -65,7 +77,7 @@ export default function ContactForm() {
             <label className="block text-gray-700">Nome</label>
             <input
               {...register("name")}
-              className="w-full mt-1 p-2 border border-black focus:border-yellow-200"
+              className="w-full mt-1 p-2 border border-black text-black focus:border-yellow-200"
             />
             {errors.name && <p className="text-red-500 text-sm">{errors.name.message}</p>}
           </div>
@@ -75,7 +87,7 @@ export default function ContactForm() {
             <input
               {...register("email")}
               type="email"
-              className="w-full mt-1 p-2 border border-black focus:border-yellow-200"
+              className="w-full mt-1 p-2 border border-black text-gray-700 focus:border-yellow-200"
             />
             {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
           </div>
@@ -85,7 +97,7 @@ export default function ContactForm() {
             <textarea
               {...register("message")}
               rows={4}
-              className="w-full mt-1 p-2 border border-black focus:border-yellow-200"
+              className="w-full mt-1 p-2 border border-black text-gray-700 focus:border-yellow-200"
             />
             {errors.message && <p className="text-red-500 text-sm">{errors.message.message}</p>}
           </div>
@@ -93,7 +105,7 @@ export default function ContactForm() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="cursor-pointer w-fit px-6 bg-yellow-300 text-black py-2 rounded-3xl border hover:bg-yellow-400 transition disabled:bg-gray-400"
+              className="cursor-pointer w-fit px-6 bg-yellow-300 text-gray-700 py-2 rounded-3xl border hover:bg-yellow-400 transition disabled:bg-yellow-200"
             >
               {isSubmitting ? "Enviando..." : "Enviar"}
             </button>
