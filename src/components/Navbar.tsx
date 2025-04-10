@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white text-black shadow-md z-50 fixed top-0 left-0 h-20 flex items-center">
+    <nav className="w-full bg-white text-black border-b shadow-sm z-50 fixed top-0 left-0 h-20 flex items-center">
       <div className="container mx-auto flex justify-between items-center max-w-screen-xl">
         <a href="/">
           <Image src={"/logo-nativo.png"} alt="Logo Nativo Estúdio" width={160} height={120} priority />
