@@ -11,7 +11,7 @@ export default function About() {
               <h1 className="text-5xl tracking-wider text-black font-bold">Sobre nós</h1>
               <p className="text-gray-700 text-lg font-light">De onde somos e o que fazemos</p>
             </div>
-            <div className="max-w-md flex justify-end">
+            <div className="max-w-xl flex justify-end">
               <p className="text-black text-2xl font-bold tracking-wider">
                 "Fortaleza, cidade litorânea onde o verão dura o ano inteiro, é a cidade base do estúdio."
               </p>

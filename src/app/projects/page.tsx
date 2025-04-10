@@ -56,17 +56,17 @@ export default function Projects() {
           <button
             key={type}
             onClick={() => setSelectedType(type)}
-            className={`font-light tracking-wider cursor-pointer px-3 py-1 border border-black rounded-2xl text-sm transition-colors ${selectedType === type ? 'bg-yellow-200 text-black' : 'bg-transparent text-black hover:bg-yellow-200'}`}
+            className={`font-light tracking-wider cursor-pointer h-6 px-3 border border-black rounded-2xl text-xs items-center transition-colors ${selectedType === type ? 'bg-yellow-200 text-black' : 'bg-transparent text-black hover:bg-yellow-200'}`}
           >
             {type}
           </button>
         ))}
-        <span
+        <button
           onClick={() => setSelectedType('')}
-          className="font-light tracking-wider cursor-pointer px-3 py-1 border border-black rounded-2xl text-sm bg-transparent text-black hover:bg-yellow-200"
+          className="font-light tracking-wider cursor-pointer h-6 px-3 border border-black rounded-2xl text-xs items-center bg-transparent text-black hover:bg-yellow-200"
         >
           todos
-        </span>
+        </button>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-7xl mx-auto">
         {filteredProjects.map((project) => (
