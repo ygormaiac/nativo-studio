@@ -71,20 +71,20 @@ export default function Centenario() {
           <div className="flex flex-col gap-10">
             <FadeInSection>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
                   <Image
                     width={400}
                     height={400}
                     src="/centenario-1.webp"
                     alt="Centenário"
-                    className="self-start w-full md:w-[605px] h-[550px] object-cover"
+                    className="self-start w-full h-[550px] object-cover"
                   />
                   <Image
                     width={400}
                     height={400}
                     src="/centenario-2.webp"
                     alt="Centenário"
-                    className="self-start w-full md:w-[605px] h-[550px] object-cover"
+                    className="self-start w-full h-[550px] object-cover"
                   />
                 </div>
               </div>
@@ -107,65 +107,65 @@ export default function Centenario() {
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/centenario-4.webp"
                 alt="Centenário"
-                className="self-start w-full md:w-[605px] h-[550px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/centenario-5.webp"
                 alt="Centenário"
-                className="self-start w-full md:w-[605px] h-[550px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
             </div>
           </div>
         </FadeInSection>
         <FadeInSection>
-          <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+          <div className="flex flex-col lg:flex-row items-center justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/centenario-6.webp"
                 alt="Centenário"
-                className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/centenario-7.webp"
                 alt="Centenário"
-                className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/centenario-8.webp"
                 alt="Centenário"
-                className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center justify-center mt-10">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+          <div className="flex flex-col lg:flex-row items-center justify-center mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/centenario-9.gif"
                 alt="Centenário"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/centenario-10.webp"
                 alt="Centenário"
-                className="self-start w-full md:w-[550px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
             </div>
           </div>
@@ -194,21 +194,21 @@ export default function Centenario() {
             </div>
           </FadeInSection>
           <FadeInSection>
-            <div className="flex flex-col md:flex-row items-center justify-center">
-              <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div className="flex flex-col lg:flex-row items-center justify-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
                 <Image
                   width={400}
                   height={400}
                   src="/centenario-12.webp"
                   alt="Centenário"
-                  className="w-full md:w-[48%] h-[300px] md:h-[480px] object-cover"
+                  className="self-start w-full h-[480px] object-cover"
                 />
                 <video
                   autoPlay
                   loop
                   muted
                   playsInline
-                  className="w-full md:w-[48%] h-[300px] md:h-[480px] object-cover"
+                  className="self-start w-full h-[480px] object-cover"
                 >
                   <source src="/centenario-13.mp4" type="video/mp4" />
                 </video>

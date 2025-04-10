@@ -69,27 +69,27 @@ export default function EscolaSesc() {
           <div className="flex flex-col gap-10">
             <FadeInSection>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
                   <Image
                     width={400}
                     height={400}
                     src="/sesc-1.webp"
                     alt="Escola Sesc"
-                    className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                    className="self-start w-full h-[480px] object-cover"
                   />
                   <Image
                     width={400}
                     height={400}
                     src="/sesc-2.webp"
                     alt="Escola Sesc"
-                    className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                    className="self-start w-full h-[480px] object-cover"
                   />
                   <Image
                     width={400}
                     height={400}
                     src="/sesc-3.webp"
                     alt="Escola Sesc"
-                    className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                    className="self-start w-full h-[480px] object-cover"
                   />
                 </div>
               </div>
@@ -112,20 +112,20 @@ export default function EscolaSesc() {
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-5.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[780px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-6.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[450px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
             </div>
           </div>
@@ -134,47 +134,47 @@ export default function EscolaSesc() {
       <div className="flex flex-col gap-10 pt-10 bg-none sm:bg-none lg:bg-[url('/fundo-centenario.png')] bg-bottom bg-contain bg-no-repeat" style={{ backgroundPosition: '120% center' }}>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-7.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-8.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-9.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[520px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
             </div>
           </div>
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-10.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[605px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-11.webp"
                 alt="Escola Sesc"
-                className="self-start w-full md:w-[605px] h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
             </div>
           </div>
@@ -205,27 +205,27 @@ export default function EscolaSesc() {
       <div className="flex flex-col gap-10 pt-10">
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-13.webp"
                 alt="Escola Sesc"
-                className="w-full md:w-[48%] h-[300px] md:h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-14.webp"
                 alt="Escola Sesc"
-                className="w-full md:w-[48%] h-[300px] md:h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-15.webp"
                 alt="Escola Sesc"
-                className="w-full md:w-[48%] h-[300px] md:h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
             </div>
           </div>
@@ -237,20 +237,20 @@ export default function EscolaSesc() {
         </FadeInSection>
         <FadeInSection>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-10 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
               <Image
                 width={400}
                 height={400}
                 src="/sesc-17.webp"
                 alt="Escola Sesc"
-                className="w-full md:w-[48%] h-[300px] md:h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
               <Image
                 width={400}
                 height={400}
                 src="/sesc-18.webp"
                 alt="Escola Sesc"
-                className="w-full md:w-[48%] h-[300px] md:h-[480px] object-cover"
+                className="self-start w-full h-[480px] object-cover"
               />
             </div>
           </div>
