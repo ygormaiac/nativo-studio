@@ -20,7 +20,6 @@ const projects = [
     title: 'Escola Educar Sesc',
     type: {
       primary: 'sinalização',
-      secondary: 'identidade',
     },
     url: '/projects/escola-sesc',
   },
@@ -79,8 +78,14 @@ export default function Projects() {
             <div className="absolute inset-0 bg-yellow-200 bg-opacity-90 flex flex-col justify-between text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-6">
               <div className="flex flex-col">
                 <h3 className="mt-2 text-2xl font-semibold text-left">{project.title}</h3>
-                <span className="mt-1 text-black border-1 border-black rounded-xl text-xs px-2 max-w-21">{project.type.primary}</span>
-                <span className="mt-1 text-black border-1 border-black rounded-xl text-xs px-2 max-w-21">{project.type.secondary}</span>
+                {project.type.secondary ? (
+                  <>
+                    <span className="mt-1 text-black border-1 border-black rounded-xl text-xs px-2 max-w-21">{project.type.primary}</span>
+                    <span className="mt-1 text-black border-1 border-black rounded-xl text-xs px-2 max-w-21">{project.type.secondary}</span>
+                  </>
+                ) : (
+                  <span className="mt-1 text-black border-1 border-black rounded-xl text-xs px-2 max-w-21">{project.type.primary}</span>
+                )}
               </div>
               <div className="flex justify-end">
                 <FaPlus className="text-3xl text-black" />
